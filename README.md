@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # New Pages — File Placement Guide
 
 ## Files and where they go
@@ -63,3 +64,6 @@ ALTER TABLE courses
 ```
 
 Then update your rows with real descriptions and categories.
+=======
+# GEN-NEXT_Learning_Dashboard
+>>>>>>> 083d0fa8409554e56538a524695a4e9d001f31ec
