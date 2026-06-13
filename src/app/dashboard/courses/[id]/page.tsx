@@ -1,11 +1,10 @@
-// src/app/dashboard/courses/[id]/page.tsx
 import { getCourseById, getCourses } from "@/lib/supabase-server";
 import { notFound } from "next/navigation";
 import DashboardShell from "../../_components/DashboardShell";
 import CourseDetail from "./_components/CourseDetail";
 
 interface PageProps {
-  params: Promise<{ id: string }>;  // ← Promise in Next.js 15
+  params: Promise<{ id: string }>;
 }
 
 export async function generateStaticParams() {
@@ -14,7 +13,7 @@ export async function generateStaticParams() {
 }
 
 export default async function CourseDetailPage({ params }: PageProps) {
-  const { id } = await params;                          // ← await params
+  const { id } = await params;
   const { data: course, error } = await getCourseById(id);
 
   if (error || !course) notFound();
