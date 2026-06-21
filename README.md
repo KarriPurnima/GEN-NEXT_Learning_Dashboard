@@ -5,17 +5,17 @@
 
 | File in this folder     | Destination in your project                                                          |
 |-------------------------|--------------------------------------------------------------------------------------|
-| types.ts                | src/lib/types.ts  (REPLACE existing)                                                 |
-| supabase-server.ts      | src/lib/supabase-server.ts  (REPLACE existing)                                       |
-| CourseCard.tsx          | src/app/dashboard/_components/bento/CourseCard.tsx  (REPLACE)                       |
-| courses-page.tsx        | src/app/dashboard/courses/page.tsx  (REPLACE existing stub)                          |
-| CoursesGrid.tsx         | src/app/dashboard/courses/_components/CoursesGrid.tsx  (NEW FILE + NEW FOLDER)       |
-| course-detail-page.tsx  | src/app/dashboard/courses/[id]/page.tsx  (NEW FOLDER [id])                           |
-| CourseDetail.tsx        | src/app/dashboard/courses/[id]/_components/CourseDetail.tsx  (NEW)                  |
-| progress-page.tsx       | src/app/dashboard/progress/page.tsx  (REPLACE existing stub)                         |
-| ProgressView.tsx        | src/app/dashboard/progress/_components/ProgressView.tsx  (NEW FILE + NEW FOLDER)     |
-| settings-page.tsx       | src/app/dashboard/settings/page.tsx  (REPLACE existing stub)                         |
-| SettingsView.tsx        | src/app/dashboard/settings/_components/SettingsView.tsx  (NEW FILE + NEW FOLDER)     |
+| types.ts                | src/lib/types.ts                                                                     |
+| supabase-server.ts      | src/lib/supabase-server.ts                                                           |
+| CourseCard.tsx          | src/app/dashboard/_components/bento/CourseCard.tsx                                   |
+| courses-page.tsx        | src/app/dashboard/courses/page.tsx                                                   |
+| CoursesGrid.tsx         | src/app/dashboard/courses/_components/CoursesGrid.tsx                                | 
+| course-detail-page.tsx  | src/app/dashboard/courses/[id]/page.tsx                                              |
+| CourseDetail.tsx        | src/app/dashboard/courses/[id]/_components/CourseDetail.tsx                          |
+| progress-page.tsx       | src/app/dashboard/progress/page.tsx                                                  |
+| ProgressView.tsx        | src/app/dashboard/progress/_components/ProgressView.tsx                              |
+| settings-page.tsx       | src/app/dashboard/settings/page.tsx                                                  |
+| SettingsView.tsx        | src/app/dashboard/settings/_components/SettingsView.tsx                              |
 
 ## New folder structure to create
 
